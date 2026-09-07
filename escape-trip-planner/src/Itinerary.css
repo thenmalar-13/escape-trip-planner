@@ -1,0 +1,23 @@
+.itinerary-container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; text-align: left; }
+.empty-state { color: #64748b; font-style: italic; margin-top: 2rem; }
+.trip-header { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.trip-header h2 { color: #0f172a; margin: 0; }
+.badge { background: #e0e7ff; color: #3730a3; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; }
+.badge.vibe { background: #fae8ff; color: #86198f; }
+
+.filter-bar { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; overflow-x: auto; }
+.filter-btn { padding: 0.5rem 1rem; border: 1px solid #cbd5e1; background: white; border-radius: 20px; cursor: pointer; font-size: 0.9rem; }
+.filter-btn.active { background: #4f46e5; color: white; border-color: #4f46e5; }
+
+.activities-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+.activity-card { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; position: relative; border-top: 4px solid #4f46e5; }
+.day-tag { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #64748b; margin-bottom: 0.5rem; display: block; }
+.activity-card h3 { font-size: 1.1rem; color: #1e293b; margin-bottom: 0.75rem; }
+.activity-card p { font-size: 0.9rem; color: #475569; margin-bottom: 1rem; }
+
+.shortlist-btn { background: #f1f5f9; border: 1px solid #cbd5e1; padding: 0.5rem; border-radius: 6px; cursor: pointer; font-weight: 600; color: #334155; transition: all 0.2s; }
+.shortlist-btn.saved { background: #fef08a; border-color: #eab308; color: #713f12; }
+
+.shortlist-summary { margin-top: 3rem; background: #f8fafc; padding: 1.5rem; border-radius: 12px; border: 1px solid #e2e8f0; }
+.shortlist-summary h3 { margin-bottom: 1rem; color: #0f172a; }
+.shortlist-summary ul { padding-left: 1.2rem; color: #334155; }
